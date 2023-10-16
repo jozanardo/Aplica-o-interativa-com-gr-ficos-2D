@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/joao/abcg
+CMAKE_SOURCE_DIR = /home/joao/Aplicacao-interativa-com-graficos-2D
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/joao/abcg/build
+CMAKE_BINARY_DIR = /home/joao/Aplicacao-interativa-com-graficos-2D/build
 
 # Include any dependencies generated for this target.
 include abcg/CMakeFiles/abcg.dir/depend.make
@@ -70,184 +70,172 @@ include abcg/CMakeFiles/abcg.dir/progress.make
 include abcg/CMakeFiles/abcg.dir/flags.make
 
 abcg/CMakeFiles/abcg.dir/abcgApplication.cpp.o: abcg/CMakeFiles/abcg.dir/flags.make
-abcg/CMakeFiles/abcg.dir/abcgApplication.cpp.o: abcg/CMakeFiles/abcg.dir/includes_CXX.rsp
 abcg/CMakeFiles/abcg.dir/abcgApplication.cpp.o: ../abcg/abcgApplication.cpp
 abcg/CMakeFiles/abcg.dir/abcgApplication.cpp.o: abcg/CMakeFiles/abcg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/abcg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object abcg/CMakeFiles/abcg.dir/abcgApplication.cpp.o"
-	cd /home/joao/abcg/build/abcg && /usr/bin/ccache /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcgApplication.cpp.o -MF CMakeFiles/abcg.dir/abcgApplication.cpp.o.d -o CMakeFiles/abcg.dir/abcgApplication.cpp.o -c /home/joao/abcg/abcg/abcgApplication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/Aplicacao-interativa-com-graficos-2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object abcg/CMakeFiles/abcg.dir/abcgApplication.cpp.o"
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/bin/ccache /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcgApplication.cpp.o -MF CMakeFiles/abcg.dir/abcgApplication.cpp.o.d -o CMakeFiles/abcg.dir/abcgApplication.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgApplication.cpp
 
 abcg/CMakeFiles/abcg.dir/abcgApplication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abcg.dir/abcgApplication.cpp.i"
-	cd /home/joao/abcg/build/abcg && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/abcg/abcg/abcgApplication.cpp > CMakeFiles/abcg.dir/abcgApplication.cpp.i
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgApplication.cpp > CMakeFiles/abcg.dir/abcgApplication.cpp.i
 
 abcg/CMakeFiles/abcg.dir/abcgApplication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abcg.dir/abcgApplication.cpp.s"
-	cd /home/joao/abcg/build/abcg && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/abcg/abcg/abcgApplication.cpp -o CMakeFiles/abcg.dir/abcgApplication.cpp.s
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgApplication.cpp -o CMakeFiles/abcg.dir/abcgApplication.cpp.s
 
 abcg/CMakeFiles/abcg.dir/abcgTimer.cpp.o: abcg/CMakeFiles/abcg.dir/flags.make
-abcg/CMakeFiles/abcg.dir/abcgTimer.cpp.o: abcg/CMakeFiles/abcg.dir/includes_CXX.rsp
 abcg/CMakeFiles/abcg.dir/abcgTimer.cpp.o: ../abcg/abcgTimer.cpp
 abcg/CMakeFiles/abcg.dir/abcgTimer.cpp.o: abcg/CMakeFiles/abcg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/abcg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object abcg/CMakeFiles/abcg.dir/abcgTimer.cpp.o"
-	cd /home/joao/abcg/build/abcg && /usr/bin/ccache /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcgTimer.cpp.o -MF CMakeFiles/abcg.dir/abcgTimer.cpp.o.d -o CMakeFiles/abcg.dir/abcgTimer.cpp.o -c /home/joao/abcg/abcg/abcgTimer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/Aplicacao-interativa-com-graficos-2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object abcg/CMakeFiles/abcg.dir/abcgTimer.cpp.o"
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/bin/ccache /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcgTimer.cpp.o -MF CMakeFiles/abcg.dir/abcgTimer.cpp.o.d -o CMakeFiles/abcg.dir/abcgTimer.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgTimer.cpp
 
 abcg/CMakeFiles/abcg.dir/abcgTimer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abcg.dir/abcgTimer.cpp.i"
-	cd /home/joao/abcg/build/abcg && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/abcg/abcg/abcgTimer.cpp > CMakeFiles/abcg.dir/abcgTimer.cpp.i
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgTimer.cpp > CMakeFiles/abcg.dir/abcgTimer.cpp.i
 
 abcg/CMakeFiles/abcg.dir/abcgTimer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abcg.dir/abcgTimer.cpp.s"
-	cd /home/joao/abcg/build/abcg && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/abcg/abcg/abcgTimer.cpp -o CMakeFiles/abcg.dir/abcgTimer.cpp.s
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgTimer.cpp -o CMakeFiles/abcg.dir/abcgTimer.cpp.s
 
 abcg/CMakeFiles/abcg.dir/abcgException.cpp.o: abcg/CMakeFiles/abcg.dir/flags.make
-abcg/CMakeFiles/abcg.dir/abcgException.cpp.o: abcg/CMakeFiles/abcg.dir/includes_CXX.rsp
 abcg/CMakeFiles/abcg.dir/abcgException.cpp.o: ../abcg/abcgException.cpp
 abcg/CMakeFiles/abcg.dir/abcgException.cpp.o: abcg/CMakeFiles/abcg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/abcg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object abcg/CMakeFiles/abcg.dir/abcgException.cpp.o"
-	cd /home/joao/abcg/build/abcg && /usr/bin/ccache /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcgException.cpp.o -MF CMakeFiles/abcg.dir/abcgException.cpp.o.d -o CMakeFiles/abcg.dir/abcgException.cpp.o -c /home/joao/abcg/abcg/abcgException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/Aplicacao-interativa-com-graficos-2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object abcg/CMakeFiles/abcg.dir/abcgException.cpp.o"
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/bin/ccache /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcgException.cpp.o -MF CMakeFiles/abcg.dir/abcgException.cpp.o.d -o CMakeFiles/abcg.dir/abcgException.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgException.cpp
 
 abcg/CMakeFiles/abcg.dir/abcgException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abcg.dir/abcgException.cpp.i"
-	cd /home/joao/abcg/build/abcg && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/abcg/abcg/abcgException.cpp > CMakeFiles/abcg.dir/abcgException.cpp.i
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgException.cpp > CMakeFiles/abcg.dir/abcgException.cpp.i
 
 abcg/CMakeFiles/abcg.dir/abcgException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abcg.dir/abcgException.cpp.s"
-	cd /home/joao/abcg/build/abcg && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/abcg/abcg/abcgException.cpp -o CMakeFiles/abcg.dir/abcgException.cpp.s
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgException.cpp -o CMakeFiles/abcg.dir/abcgException.cpp.s
 
 abcg/CMakeFiles/abcg.dir/abcgImage.cpp.o: abcg/CMakeFiles/abcg.dir/flags.make
-abcg/CMakeFiles/abcg.dir/abcgImage.cpp.o: abcg/CMakeFiles/abcg.dir/includes_CXX.rsp
 abcg/CMakeFiles/abcg.dir/abcgImage.cpp.o: ../abcg/abcgImage.cpp
 abcg/CMakeFiles/abcg.dir/abcgImage.cpp.o: abcg/CMakeFiles/abcg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/abcg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object abcg/CMakeFiles/abcg.dir/abcgImage.cpp.o"
-	cd /home/joao/abcg/build/abcg && /usr/bin/ccache /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcgImage.cpp.o -MF CMakeFiles/abcg.dir/abcgImage.cpp.o.d -o CMakeFiles/abcg.dir/abcgImage.cpp.o -c /home/joao/abcg/abcg/abcgImage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/Aplicacao-interativa-com-graficos-2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object abcg/CMakeFiles/abcg.dir/abcgImage.cpp.o"
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/bin/ccache /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcgImage.cpp.o -MF CMakeFiles/abcg.dir/abcgImage.cpp.o.d -o CMakeFiles/abcg.dir/abcgImage.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgImage.cpp
 
 abcg/CMakeFiles/abcg.dir/abcgImage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abcg.dir/abcgImage.cpp.i"
-	cd /home/joao/abcg/build/abcg && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/abcg/abcg/abcgImage.cpp > CMakeFiles/abcg.dir/abcgImage.cpp.i
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgImage.cpp > CMakeFiles/abcg.dir/abcgImage.cpp.i
 
 abcg/CMakeFiles/abcg.dir/abcgImage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abcg.dir/abcgImage.cpp.s"
-	cd /home/joao/abcg/build/abcg && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/abcg/abcg/abcgImage.cpp -o CMakeFiles/abcg.dir/abcgImage.cpp.s
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgImage.cpp -o CMakeFiles/abcg.dir/abcgImage.cpp.s
 
 abcg/CMakeFiles/abcg.dir/abcgTrackball.cpp.o: abcg/CMakeFiles/abcg.dir/flags.make
-abcg/CMakeFiles/abcg.dir/abcgTrackball.cpp.o: abcg/CMakeFiles/abcg.dir/includes_CXX.rsp
 abcg/CMakeFiles/abcg.dir/abcgTrackball.cpp.o: ../abcg/abcgTrackball.cpp
 abcg/CMakeFiles/abcg.dir/abcgTrackball.cpp.o: abcg/CMakeFiles/abcg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/abcg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object abcg/CMakeFiles/abcg.dir/abcgTrackball.cpp.o"
-	cd /home/joao/abcg/build/abcg && /usr/bin/ccache /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcgTrackball.cpp.o -MF CMakeFiles/abcg.dir/abcgTrackball.cpp.o.d -o CMakeFiles/abcg.dir/abcgTrackball.cpp.o -c /home/joao/abcg/abcg/abcgTrackball.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/Aplicacao-interativa-com-graficos-2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object abcg/CMakeFiles/abcg.dir/abcgTrackball.cpp.o"
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/bin/ccache /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcgTrackball.cpp.o -MF CMakeFiles/abcg.dir/abcgTrackball.cpp.o.d -o CMakeFiles/abcg.dir/abcgTrackball.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgTrackball.cpp
 
 abcg/CMakeFiles/abcg.dir/abcgTrackball.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abcg.dir/abcgTrackball.cpp.i"
-	cd /home/joao/abcg/build/abcg && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/abcg/abcg/abcgTrackball.cpp > CMakeFiles/abcg.dir/abcgTrackball.cpp.i
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgTrackball.cpp > CMakeFiles/abcg.dir/abcgTrackball.cpp.i
 
 abcg/CMakeFiles/abcg.dir/abcgTrackball.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abcg.dir/abcgTrackball.cpp.s"
-	cd /home/joao/abcg/build/abcg && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/abcg/abcg/abcgTrackball.cpp -o CMakeFiles/abcg.dir/abcgTrackball.cpp.s
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgTrackball.cpp -o CMakeFiles/abcg.dir/abcgTrackball.cpp.s
 
 abcg/CMakeFiles/abcg.dir/abcgWindow.cpp.o: abcg/CMakeFiles/abcg.dir/flags.make
-abcg/CMakeFiles/abcg.dir/abcgWindow.cpp.o: abcg/CMakeFiles/abcg.dir/includes_CXX.rsp
 abcg/CMakeFiles/abcg.dir/abcgWindow.cpp.o: ../abcg/abcgWindow.cpp
 abcg/CMakeFiles/abcg.dir/abcgWindow.cpp.o: abcg/CMakeFiles/abcg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/abcg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object abcg/CMakeFiles/abcg.dir/abcgWindow.cpp.o"
-	cd /home/joao/abcg/build/abcg && /usr/bin/ccache /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcgWindow.cpp.o -MF CMakeFiles/abcg.dir/abcgWindow.cpp.o.d -o CMakeFiles/abcg.dir/abcgWindow.cpp.o -c /home/joao/abcg/abcg/abcgWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/Aplicacao-interativa-com-graficos-2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object abcg/CMakeFiles/abcg.dir/abcgWindow.cpp.o"
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/bin/ccache /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcgWindow.cpp.o -MF CMakeFiles/abcg.dir/abcgWindow.cpp.o.d -o CMakeFiles/abcg.dir/abcgWindow.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgWindow.cpp
 
 abcg/CMakeFiles/abcg.dir/abcgWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abcg.dir/abcgWindow.cpp.i"
-	cd /home/joao/abcg/build/abcg && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/abcg/abcg/abcgWindow.cpp > CMakeFiles/abcg.dir/abcgWindow.cpp.i
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgWindow.cpp > CMakeFiles/abcg.dir/abcgWindow.cpp.i
 
 abcg/CMakeFiles/abcg.dir/abcgWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abcg.dir/abcgWindow.cpp.s"
-	cd /home/joao/abcg/build/abcg && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/abcg/abcg/abcgWindow.cpp -o CMakeFiles/abcg.dir/abcgWindow.cpp.s
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgWindow.cpp -o CMakeFiles/abcg.dir/abcgWindow.cpp.s
 
 abcg/CMakeFiles/abcg.dir/abcgUtil.cpp.o: abcg/CMakeFiles/abcg.dir/flags.make
-abcg/CMakeFiles/abcg.dir/abcgUtil.cpp.o: abcg/CMakeFiles/abcg.dir/includes_CXX.rsp
 abcg/CMakeFiles/abcg.dir/abcgUtil.cpp.o: ../abcg/abcgUtil.cpp
 abcg/CMakeFiles/abcg.dir/abcgUtil.cpp.o: abcg/CMakeFiles/abcg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/abcg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object abcg/CMakeFiles/abcg.dir/abcgUtil.cpp.o"
-	cd /home/joao/abcg/build/abcg && /usr/bin/ccache /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcgUtil.cpp.o -MF CMakeFiles/abcg.dir/abcgUtil.cpp.o.d -o CMakeFiles/abcg.dir/abcgUtil.cpp.o -c /home/joao/abcg/abcg/abcgUtil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/Aplicacao-interativa-com-graficos-2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object abcg/CMakeFiles/abcg.dir/abcgUtil.cpp.o"
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/bin/ccache /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcgUtil.cpp.o -MF CMakeFiles/abcg.dir/abcgUtil.cpp.o.d -o CMakeFiles/abcg.dir/abcgUtil.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgUtil.cpp
 
 abcg/CMakeFiles/abcg.dir/abcgUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abcg.dir/abcgUtil.cpp.i"
-	cd /home/joao/abcg/build/abcg && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/abcg/abcg/abcgUtil.cpp > CMakeFiles/abcg.dir/abcgUtil.cpp.i
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgUtil.cpp > CMakeFiles/abcg.dir/abcgUtil.cpp.i
 
 abcg/CMakeFiles/abcg.dir/abcgUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abcg.dir/abcgUtil.cpp.s"
-	cd /home/joao/abcg/build/abcg && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/abcg/abcg/abcgUtil.cpp -o CMakeFiles/abcg.dir/abcgUtil.cpp.s
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgUtil.cpp -o CMakeFiles/abcg.dir/abcgUtil.cpp.s
 
 abcg/CMakeFiles/abcg.dir/abcgOpenGLError.cpp.o: abcg/CMakeFiles/abcg.dir/flags.make
-abcg/CMakeFiles/abcg.dir/abcgOpenGLError.cpp.o: abcg/CMakeFiles/abcg.dir/includes_CXX.rsp
 abcg/CMakeFiles/abcg.dir/abcgOpenGLError.cpp.o: ../abcg/abcgOpenGLError.cpp
 abcg/CMakeFiles/abcg.dir/abcgOpenGLError.cpp.o: abcg/CMakeFiles/abcg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/abcg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object abcg/CMakeFiles/abcg.dir/abcgOpenGLError.cpp.o"
-	cd /home/joao/abcg/build/abcg && /usr/bin/ccache /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcgOpenGLError.cpp.o -MF CMakeFiles/abcg.dir/abcgOpenGLError.cpp.o.d -o CMakeFiles/abcg.dir/abcgOpenGLError.cpp.o -c /home/joao/abcg/abcg/abcgOpenGLError.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/Aplicacao-interativa-com-graficos-2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object abcg/CMakeFiles/abcg.dir/abcgOpenGLError.cpp.o"
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/bin/ccache /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcgOpenGLError.cpp.o -MF CMakeFiles/abcg.dir/abcgOpenGLError.cpp.o.d -o CMakeFiles/abcg.dir/abcgOpenGLError.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgOpenGLError.cpp
 
 abcg/CMakeFiles/abcg.dir/abcgOpenGLError.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abcg.dir/abcgOpenGLError.cpp.i"
-	cd /home/joao/abcg/build/abcg && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/abcg/abcg/abcgOpenGLError.cpp > CMakeFiles/abcg.dir/abcgOpenGLError.cpp.i
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgOpenGLError.cpp > CMakeFiles/abcg.dir/abcgOpenGLError.cpp.i
 
 abcg/CMakeFiles/abcg.dir/abcgOpenGLError.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abcg.dir/abcgOpenGLError.cpp.s"
-	cd /home/joao/abcg/build/abcg && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/abcg/abcg/abcgOpenGLError.cpp -o CMakeFiles/abcg.dir/abcgOpenGLError.cpp.s
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgOpenGLError.cpp -o CMakeFiles/abcg.dir/abcgOpenGLError.cpp.s
 
 abcg/CMakeFiles/abcg.dir/abcgOpenGLFunction.cpp.o: abcg/CMakeFiles/abcg.dir/flags.make
-abcg/CMakeFiles/abcg.dir/abcgOpenGLFunction.cpp.o: abcg/CMakeFiles/abcg.dir/includes_CXX.rsp
 abcg/CMakeFiles/abcg.dir/abcgOpenGLFunction.cpp.o: ../abcg/abcgOpenGLFunction.cpp
 abcg/CMakeFiles/abcg.dir/abcgOpenGLFunction.cpp.o: abcg/CMakeFiles/abcg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/abcg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object abcg/CMakeFiles/abcg.dir/abcgOpenGLFunction.cpp.o"
-	cd /home/joao/abcg/build/abcg && /usr/bin/ccache /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcgOpenGLFunction.cpp.o -MF CMakeFiles/abcg.dir/abcgOpenGLFunction.cpp.o.d -o CMakeFiles/abcg.dir/abcgOpenGLFunction.cpp.o -c /home/joao/abcg/abcg/abcgOpenGLFunction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/Aplicacao-interativa-com-graficos-2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object abcg/CMakeFiles/abcg.dir/abcgOpenGLFunction.cpp.o"
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/bin/ccache /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcgOpenGLFunction.cpp.o -MF CMakeFiles/abcg.dir/abcgOpenGLFunction.cpp.o.d -o CMakeFiles/abcg.dir/abcgOpenGLFunction.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgOpenGLFunction.cpp
 
 abcg/CMakeFiles/abcg.dir/abcgOpenGLFunction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abcg.dir/abcgOpenGLFunction.cpp.i"
-	cd /home/joao/abcg/build/abcg && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/abcg/abcg/abcgOpenGLFunction.cpp > CMakeFiles/abcg.dir/abcgOpenGLFunction.cpp.i
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgOpenGLFunction.cpp > CMakeFiles/abcg.dir/abcgOpenGLFunction.cpp.i
 
 abcg/CMakeFiles/abcg.dir/abcgOpenGLFunction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abcg.dir/abcgOpenGLFunction.cpp.s"
-	cd /home/joao/abcg/build/abcg && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/abcg/abcg/abcgOpenGLFunction.cpp -o CMakeFiles/abcg.dir/abcgOpenGLFunction.cpp.s
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgOpenGLFunction.cpp -o CMakeFiles/abcg.dir/abcgOpenGLFunction.cpp.s
 
 abcg/CMakeFiles/abcg.dir/abcgOpenGLImage.cpp.o: abcg/CMakeFiles/abcg.dir/flags.make
-abcg/CMakeFiles/abcg.dir/abcgOpenGLImage.cpp.o: abcg/CMakeFiles/abcg.dir/includes_CXX.rsp
 abcg/CMakeFiles/abcg.dir/abcgOpenGLImage.cpp.o: ../abcg/abcgOpenGLImage.cpp
 abcg/CMakeFiles/abcg.dir/abcgOpenGLImage.cpp.o: abcg/CMakeFiles/abcg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/abcg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object abcg/CMakeFiles/abcg.dir/abcgOpenGLImage.cpp.o"
-	cd /home/joao/abcg/build/abcg && /usr/bin/ccache /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcgOpenGLImage.cpp.o -MF CMakeFiles/abcg.dir/abcgOpenGLImage.cpp.o.d -o CMakeFiles/abcg.dir/abcgOpenGLImage.cpp.o -c /home/joao/abcg/abcg/abcgOpenGLImage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/Aplicacao-interativa-com-graficos-2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object abcg/CMakeFiles/abcg.dir/abcgOpenGLImage.cpp.o"
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/bin/ccache /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcgOpenGLImage.cpp.o -MF CMakeFiles/abcg.dir/abcgOpenGLImage.cpp.o.d -o CMakeFiles/abcg.dir/abcgOpenGLImage.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgOpenGLImage.cpp
 
 abcg/CMakeFiles/abcg.dir/abcgOpenGLImage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abcg.dir/abcgOpenGLImage.cpp.i"
-	cd /home/joao/abcg/build/abcg && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/abcg/abcg/abcgOpenGLImage.cpp > CMakeFiles/abcg.dir/abcgOpenGLImage.cpp.i
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgOpenGLImage.cpp > CMakeFiles/abcg.dir/abcgOpenGLImage.cpp.i
 
 abcg/CMakeFiles/abcg.dir/abcgOpenGLImage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abcg.dir/abcgOpenGLImage.cpp.s"
-	cd /home/joao/abcg/build/abcg && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/abcg/abcg/abcgOpenGLImage.cpp -o CMakeFiles/abcg.dir/abcgOpenGLImage.cpp.s
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgOpenGLImage.cpp -o CMakeFiles/abcg.dir/abcgOpenGLImage.cpp.s
 
 abcg/CMakeFiles/abcg.dir/abcgOpenGLShader.cpp.o: abcg/CMakeFiles/abcg.dir/flags.make
-abcg/CMakeFiles/abcg.dir/abcgOpenGLShader.cpp.o: abcg/CMakeFiles/abcg.dir/includes_CXX.rsp
 abcg/CMakeFiles/abcg.dir/abcgOpenGLShader.cpp.o: ../abcg/abcgOpenGLShader.cpp
 abcg/CMakeFiles/abcg.dir/abcgOpenGLShader.cpp.o: abcg/CMakeFiles/abcg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/abcg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object abcg/CMakeFiles/abcg.dir/abcgOpenGLShader.cpp.o"
-	cd /home/joao/abcg/build/abcg && /usr/bin/ccache /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcgOpenGLShader.cpp.o -MF CMakeFiles/abcg.dir/abcgOpenGLShader.cpp.o.d -o CMakeFiles/abcg.dir/abcgOpenGLShader.cpp.o -c /home/joao/abcg/abcg/abcgOpenGLShader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/Aplicacao-interativa-com-graficos-2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object abcg/CMakeFiles/abcg.dir/abcgOpenGLShader.cpp.o"
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/bin/ccache /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcgOpenGLShader.cpp.o -MF CMakeFiles/abcg.dir/abcgOpenGLShader.cpp.o.d -o CMakeFiles/abcg.dir/abcgOpenGLShader.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgOpenGLShader.cpp
 
 abcg/CMakeFiles/abcg.dir/abcgOpenGLShader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abcg.dir/abcgOpenGLShader.cpp.i"
-	cd /home/joao/abcg/build/abcg && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/abcg/abcg/abcgOpenGLShader.cpp > CMakeFiles/abcg.dir/abcgOpenGLShader.cpp.i
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgOpenGLShader.cpp > CMakeFiles/abcg.dir/abcgOpenGLShader.cpp.i
 
 abcg/CMakeFiles/abcg.dir/abcgOpenGLShader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abcg.dir/abcgOpenGLShader.cpp.s"
-	cd /home/joao/abcg/build/abcg && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/abcg/abcg/abcgOpenGLShader.cpp -o CMakeFiles/abcg.dir/abcgOpenGLShader.cpp.s
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgOpenGLShader.cpp -o CMakeFiles/abcg.dir/abcgOpenGLShader.cpp.s
 
 abcg/CMakeFiles/abcg.dir/abcgOpenGLWindow.cpp.o: abcg/CMakeFiles/abcg.dir/flags.make
-abcg/CMakeFiles/abcg.dir/abcgOpenGLWindow.cpp.o: abcg/CMakeFiles/abcg.dir/includes_CXX.rsp
 abcg/CMakeFiles/abcg.dir/abcgOpenGLWindow.cpp.o: ../abcg/abcgOpenGLWindow.cpp
 abcg/CMakeFiles/abcg.dir/abcgOpenGLWindow.cpp.o: abcg/CMakeFiles/abcg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/abcg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object abcg/CMakeFiles/abcg.dir/abcgOpenGLWindow.cpp.o"
-	cd /home/joao/abcg/build/abcg && /usr/bin/ccache /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcgOpenGLWindow.cpp.o -MF CMakeFiles/abcg.dir/abcgOpenGLWindow.cpp.o.d -o CMakeFiles/abcg.dir/abcgOpenGLWindow.cpp.o -c /home/joao/abcg/abcg/abcgOpenGLWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/Aplicacao-interativa-com-graficos-2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object abcg/CMakeFiles/abcg.dir/abcgOpenGLWindow.cpp.o"
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/bin/ccache /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcgOpenGLWindow.cpp.o -MF CMakeFiles/abcg.dir/abcgOpenGLWindow.cpp.o.d -o CMakeFiles/abcg.dir/abcgOpenGLWindow.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgOpenGLWindow.cpp
 
 abcg/CMakeFiles/abcg.dir/abcgOpenGLWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abcg.dir/abcgOpenGLWindow.cpp.i"
-	cd /home/joao/abcg/build/abcg && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/abcg/abcg/abcgOpenGLWindow.cpp > CMakeFiles/abcg.dir/abcgOpenGLWindow.cpp.i
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgOpenGLWindow.cpp > CMakeFiles/abcg.dir/abcgOpenGLWindow.cpp.i
 
 abcg/CMakeFiles/abcg.dir/abcgOpenGLWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abcg.dir/abcgOpenGLWindow.cpp.s"
-	cd /home/joao/abcg/build/abcg && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/abcg/abcg/abcgOpenGLWindow.cpp -o CMakeFiles/abcg.dir/abcgOpenGLWindow.cpp.s
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/abcgOpenGLWindow.cpp -o CMakeFiles/abcg.dir/abcgOpenGLWindow.cpp.s
 
 # Object files for target abcg
 abcg_OBJECTS = \
@@ -281,19 +269,19 @@ abcg/libabcg.a: abcg/CMakeFiles/abcg.dir/abcgOpenGLShader.cpp.o
 abcg/libabcg.a: abcg/CMakeFiles/abcg.dir/abcgOpenGLWindow.cpp.o
 abcg/libabcg.a: abcg/CMakeFiles/abcg.dir/build.make
 abcg/libabcg.a: abcg/CMakeFiles/abcg.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/joao/abcg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX static library libabcg.a"
-	cd /home/joao/abcg/build/abcg && $(CMAKE_COMMAND) -P CMakeFiles/abcg.dir/cmake_clean_target.cmake
-	cd /home/joao/abcg/build/abcg && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/abcg.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/joao/Aplicacao-interativa-com-graficos-2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX static library libabcg.a"
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && $(CMAKE_COMMAND) -P CMakeFiles/abcg.dir/cmake_clean_target.cmake
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/abcg.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 abcg/CMakeFiles/abcg.dir/build: abcg/libabcg.a
 .PHONY : abcg/CMakeFiles/abcg.dir/build
 
 abcg/CMakeFiles/abcg.dir/clean:
-	cd /home/joao/abcg/build/abcg && $(CMAKE_COMMAND) -P CMakeFiles/abcg.dir/cmake_clean.cmake
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg && $(CMAKE_COMMAND) -P CMakeFiles/abcg.dir/cmake_clean.cmake
 .PHONY : abcg/CMakeFiles/abcg.dir/clean
 
 abcg/CMakeFiles/abcg.dir/depend:
-	cd /home/joao/abcg/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joao/abcg /home/joao/abcg/abcg /home/joao/abcg/build /home/joao/abcg/build/abcg /home/joao/abcg/build/abcg/CMakeFiles/abcg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joao/Aplicacao-interativa-com-graficos-2D /home/joao/Aplicacao-interativa-com-graficos-2D/abcg /home/joao/Aplicacao-interativa-com-graficos-2D/build /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/CMakeFiles/abcg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : abcg/CMakeFiles/abcg.dir/depend
 

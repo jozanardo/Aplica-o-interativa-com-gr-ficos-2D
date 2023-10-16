@@ -1,1 +1,0 @@
--I/home/joao/abcg/abcg -I/home/joao/abcg/abcg/external/cppitertools -I/home/joao/abcg/abcg/external/fmt -I/home/joao/abcg/abcg/external/glm/.. -I/home/joao/abcg/abcg/external/imgui -isystem /home/joao/abcg/abcg/external -isystem /home/joao/abcg/abcg/external/tiny_obj_loader

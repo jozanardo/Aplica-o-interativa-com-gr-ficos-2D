@@ -1,2 +1,2 @@
-/home/joao/emsdk/upstream/emscripten/emar qc libfmt.a CMakeFiles/fmt.dir/format.cc.o
-/home/joao/emsdk/upstream/emscripten/emranlib libfmt.a
+/usr/bin/llvm-ar-14 qc libfmt.a CMakeFiles/fmt.dir/format.cc.o
+/usr/bin/llvm-ranlib-14 libfmt.a
