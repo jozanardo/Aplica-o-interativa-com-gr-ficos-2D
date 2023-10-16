@@ -9,7 +9,7 @@ int main(int argc, char **argv) {
     window.setWindowSettings({.width = 600,
                               .height = 600,
                               .showFullscreenButton = false,
-                              .title = "Fibonacci"});
+                              .title = "Espiral"});
 
     app.run(window);
   } catch (std::exception const &exception) {

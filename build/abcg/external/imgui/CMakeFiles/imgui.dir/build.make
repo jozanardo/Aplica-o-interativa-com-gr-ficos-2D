@@ -70,102 +70,109 @@ include abcg/external/imgui/CMakeFiles/imgui.dir/progress.make
 include abcg/external/imgui/CMakeFiles/imgui.dir/flags.make
 
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui.cpp.o: abcg/external/imgui/CMakeFiles/imgui.dir/flags.make
+abcg/external/imgui/CMakeFiles/imgui.dir/imgui.cpp.o: abcg/external/imgui/CMakeFiles/imgui.dir/includes_CXX.rsp
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui.cpp.o: ../abcg/external/imgui/imgui.cpp
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui.cpp.o: abcg/external/imgui/CMakeFiles/imgui.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/Aplicacao-interativa-com-graficos-2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object abcg/external/imgui/CMakeFiles/imgui.dir/imgui.cpp.o"
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /usr/bin/ccache /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/external/imgui/CMakeFiles/imgui.dir/imgui.cpp.o -MF CMakeFiles/imgui.dir/imgui.cpp.o.d -o CMakeFiles/imgui.dir/imgui.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui.cpp
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /usr/bin/ccache /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/external/imgui/CMakeFiles/imgui.dir/imgui.cpp.o -MF CMakeFiles/imgui.dir/imgui.cpp.o.d -o CMakeFiles/imgui.dir/imgui.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui.cpp
 
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgui.dir/imgui.cpp.i"
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui.cpp > CMakeFiles/imgui.dir/imgui.cpp.i
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui.cpp > CMakeFiles/imgui.dir/imgui.cpp.i
 
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/imgui.cpp.s"
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui.cpp -o CMakeFiles/imgui.dir/imgui.cpp.s
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui.cpp -o CMakeFiles/imgui.dir/imgui.cpp.s
 
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o: abcg/external/imgui/CMakeFiles/imgui.dir/flags.make
+abcg/external/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o: abcg/external/imgui/CMakeFiles/imgui.dir/includes_CXX.rsp
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o: ../abcg/external/imgui/imgui_demo.cpp
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o: abcg/external/imgui/CMakeFiles/imgui.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/Aplicacao-interativa-com-graficos-2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object abcg/external/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o"
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /usr/bin/ccache /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/external/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o -MF CMakeFiles/imgui.dir/imgui_demo.cpp.o.d -o CMakeFiles/imgui.dir/imgui_demo.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_demo.cpp
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /usr/bin/ccache /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/external/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o -MF CMakeFiles/imgui.dir/imgui_demo.cpp.o.d -o CMakeFiles/imgui.dir/imgui_demo.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_demo.cpp
 
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgui.dir/imgui_demo.cpp.i"
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_demo.cpp > CMakeFiles/imgui.dir/imgui_demo.cpp.i
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_demo.cpp > CMakeFiles/imgui.dir/imgui_demo.cpp.i
 
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/imgui_demo.cpp.s"
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_demo.cpp -o CMakeFiles/imgui.dir/imgui_demo.cpp.s
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_demo.cpp -o CMakeFiles/imgui.dir/imgui_demo.cpp.s
 
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o: abcg/external/imgui/CMakeFiles/imgui.dir/flags.make
+abcg/external/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o: abcg/external/imgui/CMakeFiles/imgui.dir/includes_CXX.rsp
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o: ../abcg/external/imgui/imgui_draw.cpp
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o: abcg/external/imgui/CMakeFiles/imgui.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/Aplicacao-interativa-com-graficos-2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object abcg/external/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o"
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /usr/bin/ccache /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/external/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o -MF CMakeFiles/imgui.dir/imgui_draw.cpp.o.d -o CMakeFiles/imgui.dir/imgui_draw.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_draw.cpp
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /usr/bin/ccache /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/external/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o -MF CMakeFiles/imgui.dir/imgui_draw.cpp.o.d -o CMakeFiles/imgui.dir/imgui_draw.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_draw.cpp
 
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgui.dir/imgui_draw.cpp.i"
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_draw.cpp > CMakeFiles/imgui.dir/imgui_draw.cpp.i
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_draw.cpp > CMakeFiles/imgui.dir/imgui_draw.cpp.i
 
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/imgui_draw.cpp.s"
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_draw.cpp -o CMakeFiles/imgui.dir/imgui_draw.cpp.s
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_draw.cpp -o CMakeFiles/imgui.dir/imgui_draw.cpp.s
 
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o: abcg/external/imgui/CMakeFiles/imgui.dir/flags.make
+abcg/external/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o: abcg/external/imgui/CMakeFiles/imgui.dir/includes_CXX.rsp
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o: ../abcg/external/imgui/imgui_tables.cpp
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o: abcg/external/imgui/CMakeFiles/imgui.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/Aplicacao-interativa-com-graficos-2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object abcg/external/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o"
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /usr/bin/ccache /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/external/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o -MF CMakeFiles/imgui.dir/imgui_tables.cpp.o.d -o CMakeFiles/imgui.dir/imgui_tables.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_tables.cpp
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /usr/bin/ccache /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/external/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o -MF CMakeFiles/imgui.dir/imgui_tables.cpp.o.d -o CMakeFiles/imgui.dir/imgui_tables.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_tables.cpp
 
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgui.dir/imgui_tables.cpp.i"
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_tables.cpp > CMakeFiles/imgui.dir/imgui_tables.cpp.i
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_tables.cpp > CMakeFiles/imgui.dir/imgui_tables.cpp.i
 
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/imgui_tables.cpp.s"
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_tables.cpp -o CMakeFiles/imgui.dir/imgui_tables.cpp.s
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_tables.cpp -o CMakeFiles/imgui.dir/imgui_tables.cpp.s
 
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o: abcg/external/imgui/CMakeFiles/imgui.dir/flags.make
+abcg/external/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o: abcg/external/imgui/CMakeFiles/imgui.dir/includes_CXX.rsp
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o: ../abcg/external/imgui/imgui_widgets.cpp
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o: abcg/external/imgui/CMakeFiles/imgui.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/Aplicacao-interativa-com-graficos-2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object abcg/external/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o"
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /usr/bin/ccache /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/external/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o -MF CMakeFiles/imgui.dir/imgui_widgets.cpp.o.d -o CMakeFiles/imgui.dir/imgui_widgets.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_widgets.cpp
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /usr/bin/ccache /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/external/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o -MF CMakeFiles/imgui.dir/imgui_widgets.cpp.o.d -o CMakeFiles/imgui.dir/imgui_widgets.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_widgets.cpp
 
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgui.dir/imgui_widgets.cpp.i"
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_widgets.cpp > CMakeFiles/imgui.dir/imgui_widgets.cpp.i
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_widgets.cpp > CMakeFiles/imgui.dir/imgui_widgets.cpp.i
 
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/imgui_widgets.cpp.s"
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_widgets.cpp -o CMakeFiles/imgui.dir/imgui_widgets.cpp.s
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_widgets.cpp -o CMakeFiles/imgui.dir/imgui_widgets.cpp.s
 
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_sdl2.cpp.o: abcg/external/imgui/CMakeFiles/imgui.dir/flags.make
+abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_sdl2.cpp.o: abcg/external/imgui/CMakeFiles/imgui.dir/includes_CXX.rsp
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_sdl2.cpp.o: ../abcg/external/imgui/imgui_impl_sdl2.cpp
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_sdl2.cpp.o: abcg/external/imgui/CMakeFiles/imgui.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/Aplicacao-interativa-com-graficos-2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_sdl2.cpp.o"
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /usr/bin/ccache /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_sdl2.cpp.o -MF CMakeFiles/imgui.dir/imgui_impl_sdl2.cpp.o.d -o CMakeFiles/imgui.dir/imgui_impl_sdl2.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_impl_sdl2.cpp
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /usr/bin/ccache /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_sdl2.cpp.o -MF CMakeFiles/imgui.dir/imgui_impl_sdl2.cpp.o.d -o CMakeFiles/imgui.dir/imgui_impl_sdl2.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_impl_sdl2.cpp
 
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_sdl2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgui.dir/imgui_impl_sdl2.cpp.i"
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_impl_sdl2.cpp > CMakeFiles/imgui.dir/imgui_impl_sdl2.cpp.i
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_impl_sdl2.cpp > CMakeFiles/imgui.dir/imgui_impl_sdl2.cpp.i
 
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_sdl2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/imgui_impl_sdl2.cpp.s"
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_impl_sdl2.cpp -o CMakeFiles/imgui.dir/imgui_impl_sdl2.cpp.s
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_impl_sdl2.cpp -o CMakeFiles/imgui.dir/imgui_impl_sdl2.cpp.s
 
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.o: abcg/external/imgui/CMakeFiles/imgui.dir/flags.make
+abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.o: abcg/external/imgui/CMakeFiles/imgui.dir/includes_CXX.rsp
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.o: ../abcg/external/imgui/imgui_impl_opengl3.cpp
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.o: abcg/external/imgui/CMakeFiles/imgui.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/Aplicacao-interativa-com-graficos-2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.o"
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /usr/bin/ccache /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.o -MF CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_impl_opengl3.cpp
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /usr/bin/ccache /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.o -MF CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_impl_opengl3.cpp
 
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.i"
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_impl_opengl3.cpp > CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.i
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_impl_opengl3.cpp > CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.i
 
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.s"
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_impl_opengl3.cpp -o CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.s
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/abcg/external/imgui && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/abcg/external/imgui/imgui_impl_opengl3.cpp -o CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.s
 
 # Object files for target imgui
 imgui_OBJECTS = \

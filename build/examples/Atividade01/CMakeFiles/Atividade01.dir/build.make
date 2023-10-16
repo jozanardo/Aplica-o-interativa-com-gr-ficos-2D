@@ -70,32 +70,34 @@ include examples/Atividade01/CMakeFiles/Atividade01.dir/progress.make
 include examples/Atividade01/CMakeFiles/Atividade01.dir/flags.make
 
 examples/Atividade01/CMakeFiles/Atividade01.dir/main.cpp.o: examples/Atividade01/CMakeFiles/Atividade01.dir/flags.make
+examples/Atividade01/CMakeFiles/Atividade01.dir/main.cpp.o: examples/Atividade01/CMakeFiles/Atividade01.dir/includes_CXX.rsp
 examples/Atividade01/CMakeFiles/Atividade01.dir/main.cpp.o: ../examples/Atividade01/main.cpp
 examples/Atividade01/CMakeFiles/Atividade01.dir/main.cpp.o: examples/Atividade01/CMakeFiles/Atividade01.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/Aplicacao-interativa-com-graficos-2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/Atividade01/CMakeFiles/Atividade01.dir/main.cpp.o"
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/examples/Atividade01 && /usr/bin/ccache /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/Atividade01/CMakeFiles/Atividade01.dir/main.cpp.o -MF CMakeFiles/Atividade01.dir/main.cpp.o.d -o CMakeFiles/Atividade01.dir/main.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/examples/Atividade01/main.cpp
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/examples/Atividade01 && /usr/bin/ccache /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/Atividade01/CMakeFiles/Atividade01.dir/main.cpp.o -MF CMakeFiles/Atividade01.dir/main.cpp.o.d -o CMakeFiles/Atividade01.dir/main.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/examples/Atividade01/main.cpp
 
 examples/Atividade01/CMakeFiles/Atividade01.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Atividade01.dir/main.cpp.i"
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/examples/Atividade01 && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/examples/Atividade01/main.cpp > CMakeFiles/Atividade01.dir/main.cpp.i
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/examples/Atividade01 && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/examples/Atividade01/main.cpp > CMakeFiles/Atividade01.dir/main.cpp.i
 
 examples/Atividade01/CMakeFiles/Atividade01.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Atividade01.dir/main.cpp.s"
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/examples/Atividade01 && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/examples/Atividade01/main.cpp -o CMakeFiles/Atividade01.dir/main.cpp.s
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/examples/Atividade01 && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/examples/Atividade01/main.cpp -o CMakeFiles/Atividade01.dir/main.cpp.s
 
 examples/Atividade01/CMakeFiles/Atividade01.dir/window.cpp.o: examples/Atividade01/CMakeFiles/Atividade01.dir/flags.make
+examples/Atividade01/CMakeFiles/Atividade01.dir/window.cpp.o: examples/Atividade01/CMakeFiles/Atividade01.dir/includes_CXX.rsp
 examples/Atividade01/CMakeFiles/Atividade01.dir/window.cpp.o: ../examples/Atividade01/window.cpp
 examples/Atividade01/CMakeFiles/Atividade01.dir/window.cpp.o: examples/Atividade01/CMakeFiles/Atividade01.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/Aplicacao-interativa-com-graficos-2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/Atividade01/CMakeFiles/Atividade01.dir/window.cpp.o"
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/examples/Atividade01 && /usr/bin/ccache /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/Atividade01/CMakeFiles/Atividade01.dir/window.cpp.o -MF CMakeFiles/Atividade01.dir/window.cpp.o.d -o CMakeFiles/Atividade01.dir/window.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/examples/Atividade01/window.cpp
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/examples/Atividade01 && /usr/bin/ccache /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/Atividade01/CMakeFiles/Atividade01.dir/window.cpp.o -MF CMakeFiles/Atividade01.dir/window.cpp.o.d -o CMakeFiles/Atividade01.dir/window.cpp.o -c /home/joao/Aplicacao-interativa-com-graficos-2D/examples/Atividade01/window.cpp
 
 examples/Atividade01/CMakeFiles/Atividade01.dir/window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Atividade01.dir/window.cpp.i"
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/examples/Atividade01 && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/examples/Atividade01/window.cpp > CMakeFiles/Atividade01.dir/window.cpp.i
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/examples/Atividade01 && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/Aplicacao-interativa-com-graficos-2D/examples/Atividade01/window.cpp > CMakeFiles/Atividade01.dir/window.cpp.i
 
 examples/Atividade01/CMakeFiles/Atividade01.dir/window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Atividade01.dir/window.cpp.s"
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/examples/Atividade01 && /usr/lib/ccache/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/examples/Atividade01/window.cpp -o CMakeFiles/Atividade01.dir/window.cpp.s
+	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/examples/Atividade01 && /home/joao/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/Aplicacao-interativa-com-graficos-2D/examples/Atividade01/window.cpp -o CMakeFiles/Atividade01.dir/window.cpp.s
 
 # Object files for target Atividade01
 Atividade01_OBJECTS = \
@@ -105,30 +107,20 @@ Atividade01_OBJECTS = \
 # External object files for target Atividade01
 Atividade01_EXTERNAL_OBJECTS =
 
-bin/Atividade01: examples/Atividade01/CMakeFiles/Atividade01.dir/main.cpp.o
-bin/Atividade01: examples/Atividade01/CMakeFiles/Atividade01.dir/window.cpp.o
-bin/Atividade01: examples/Atividade01/CMakeFiles/Atividade01.dir/build.make
-bin/Atividade01: abcg/libabcg.a
-bin/Atividade01: /usr/lib/x86_64-linux-gnu/libGLX.so
-bin/Atividade01: /usr/lib/x86_64-linux-gnu/libOpenGL.so
-bin/Atividade01: /usr/lib/x86_64-linux-gnu/libGLEW.so
-bin/Atividade01: abcg/external/fmt/libfmt.a
-bin/Atividade01: abcg/external/imgui/libimgui.a
-bin/Atividade01: /usr/lib/x86_64-linux-gnu/libSDL2main.a
-bin/Atividade01: /usr/lib/x86_64-linux-gnu/libSDL2.so
-bin/Atividade01: /usr/lib/x86_64-linux-gnu/libSDL2_image.so
-bin/Atividade01: examples/Atividade01/CMakeFiles/Atividade01.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/joao/Aplicacao-interativa-com-graficos-2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../bin/Atividade01"
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/examples/Atividade01 && /usr/bin/cmake -E remove_directory /home/joao/Aplicacao-interativa-com-graficos-2D/build/bin/Atividade01
+../public/Atividade01.js: examples/Atividade01/CMakeFiles/Atividade01.dir/main.cpp.o
+../public/Atividade01.js: examples/Atividade01/CMakeFiles/Atividade01.dir/window.cpp.o
+../public/Atividade01.js: examples/Atividade01/CMakeFiles/Atividade01.dir/build.make
+../public/Atividade01.js: abcg/libabcg.a
+../public/Atividade01.js: abcg/external/fmt/libfmt.a
+../public/Atividade01.js: abcg/external/imgui/libimgui.a
+../public/Atividade01.js: examples/Atividade01/CMakeFiles/Atividade01.dir/linklibs.rsp
+../public/Atividade01.js: examples/Atividade01/CMakeFiles/Atividade01.dir/objects1.rsp
+../public/Atividade01.js: examples/Atividade01/CMakeFiles/Atividade01.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/joao/Aplicacao-interativa-com-graficos-2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../../public/Atividade01.js"
 	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/examples/Atividade01 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Atividade01.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/examples/Atividade01 && /usr/bin/cmake -E make_directory /home/joao/Aplicacao-interativa-com-graficos-2D/build/bin/Atividade01.dir
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/examples/Atividade01 && /usr/bin/cmake -E copy /home/joao/Aplicacao-interativa-com-graficos-2D/build/bin/Atividade01 /home/joao/Aplicacao-interativa-com-graficos-2D/build/bin/Atividade01.dir/Atividade01
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/examples/Atividade01 && /usr/bin/cmake -E remove /home/joao/Aplicacao-interativa-com-graficos-2D/build/bin/Atividade01
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/examples/Atividade01 && /usr/bin/cmake -E rename /home/joao/Aplicacao-interativa-com-graficos-2D/build/bin/Atividade01.dir /home/joao/Aplicacao-interativa-com-graficos-2D/build/bin/Atividade01
-	cd /home/joao/Aplicacao-interativa-com-graficos-2D/build/examples/Atividade01 && /usr/bin/cmake -E rm -rf /home/joao/Aplicacao-interativa-com-graficos-2D/build/bin/Atividade01.dir
 
 # Rule to build all files generated by this target.
-examples/Atividade01/CMakeFiles/Atividade01.dir/build: bin/Atividade01
+examples/Atividade01/CMakeFiles/Atividade01.dir/build: ../public/Atividade01.js
 .PHONY : examples/Atividade01/CMakeFiles/Atividade01.dir/build
 
 examples/Atividade01/CMakeFiles/Atividade01.dir/clean:
